@@ -1,4 +1,11 @@
 package lk.ijse.Dao.Custom;
 
+import lk.ijse.Dto.StudentDto;
+
+import java.sql.SQLException;
+
 public interface StudentDao {
+
+    boolean add(StudentDto dto) throws SQLException, ClassNotFoundException;
+
 }
