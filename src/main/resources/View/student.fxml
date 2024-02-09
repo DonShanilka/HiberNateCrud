@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
@@ -12,6 +13,8 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <Label layoutX="23.0" layoutY="114.0" text="Name :" />
+      <Label layoutX="23.0" layoutY="114.0" text="ID :" />
+      <TextField layoutX="114.0" layoutY="110.0" />
+      <Label layoutX="23.0" layoutY="213.0" text="Name :" />
    </children>
 </AnchorPane>
