@@ -1,5 +1,6 @@
 package lk.ijse.Dto;
 
+import lk.ijse.Dto.Factory.SupperDto;
 import lombok.*;
 
 @AllArgsConstructor
@@ -7,7 +8,7 @@ import lombok.*;
 @ToString
 @Getter
 @Setter
-public class StudentDto {
+public class StudentDto implements SupperDto {
     private String id;
     private String name;
 
